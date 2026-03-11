@@ -7,7 +7,7 @@ export default function EventHero() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              The Roof - 5 voltas ao sol
+              The Roof - 3 voltas ao sol
             </h1>
 
             <div className="space-y-3">
