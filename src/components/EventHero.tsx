@@ -31,8 +31,8 @@ export default function EventHero() {
           <div className="relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl border-4 border-orange-500">
               <img
-                src="/Gemini_Generated_Image_b89yyfb89yyfb89y.png"
-                alt="Nação Zumbi - Afrociberdelia 30 anos"
+                src="/Gemini_Generated_Image_8nxtk18nxtk18nxt.png"
+                alt="The Roof - 3 Voltas ao Sol"
                 className="w-full h-full object-cover"
               />
             </div>
