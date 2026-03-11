@@ -81,7 +81,7 @@ export default function EventDescription() {
             A The Roof é inspirada nos quatro elementos da natureza — Água, Fogo, Terra e Ar.
           </p>
           <p>
-            E neste último encontro de 2025, <span className="font-bold">todos os elementos se unem</span> em um chamado único.
+            E neste último encontro de 2026, <span className="font-bold">todos os elementos se unem</span> em um chamado único.
           </p>
         </div>
       </section>
