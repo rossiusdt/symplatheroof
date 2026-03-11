@@ -6,7 +6,7 @@ export default function EventDescription() {
 
         <div className="space-y-4 text-gray-700">
           <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">The Roof – 5 Voltas ao Sol | 16 de Maio</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">The Roof – 3 Voltas ao Sol | 16 de Maio</h3>
             <p>
               No dia 16 de Maio, os quatro elementos nos chamam para o primeiro ritual do ano.
             </p>
