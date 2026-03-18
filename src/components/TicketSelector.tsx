@@ -13,19 +13,19 @@ const ticketOptions: TicketOption[] = [
     id: 'pista',
     name: 'PRÉ VENDA PISTA',
     price: 127.00,
-    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965128177349&store=19651'
+    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965153961464&store=19651'
   },
   {
     id: 'backstage',
     name: 'PRÉ VENDA BACKSTAGE',
     price: 237.00,
-    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965161924944&store=19651'
+    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965197527433&store=19651'
   },
   {
     id: 'backking',
     name: 'PRÉ VENDA BACK KING',
     price: 437.00,
-    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965177961518&store=19651'
+    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965135166169&store=19651'
   }
 ];
 
