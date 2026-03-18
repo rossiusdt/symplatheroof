@@ -9,7 +9,7 @@ export default function EventDescription() {
             Mais um capítulo da Fabric está prestes a ser escrito
           </p>
           <p>
-            E dessa vez a ANNA e o MAZ estarão no comando da pista da Fabric no dia 08 de junho em Porto Alegre.
+            E dessa vez artbat estarão no comando da pista da Fabric no dia 06 de junho em Porto Alegre.
           </p>
           <p>
             Inovação sonora, energia industrial e uma experiência única que só quem vai SENTE.

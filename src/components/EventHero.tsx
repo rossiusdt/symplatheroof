@@ -7,14 +7,14 @@ export default function EventHero() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Fabric - Art Bat
+              Fabric
             </h1>
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <Calendar className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">08 jun - 2025 - 15:00</p>
+                  <p className="font-semibold">06 jun - 2025 - 15:00</p>
                 </div>
               </div>
 
@@ -32,7 +32,7 @@ export default function EventHero() {
             <div className="relative rounded-lg overflow-hidden shadow-2xl border-4 border-orange-500">
               <img
                 src="/Gemini_Generated_Image_nb04sinb04sinb04.png"
-                alt="Fabric - Art Bat"
+                alt="Fabric"
                 className="w-full h-full object-cover"
               />
             </div>
