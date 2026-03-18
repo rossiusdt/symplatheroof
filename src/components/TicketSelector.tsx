@@ -5,7 +5,6 @@ interface TicketOption {
   id: string;
   name: string;
   price: number;
-  maxDate: string;
   checkoutUrl: string;
 }
 
@@ -14,21 +13,18 @@ const ticketOptions: TicketOption[] = [
     id: 'pista',
     name: 'PRÉ VENDA PISTA',
     price: 127.00,
-    maxDate: '11/04/2026',
     checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965128177349&store=19651'
   },
   {
     id: 'backstage',
     name: 'PRÉ VENDA BACKSTAGE',
     price: 237.00,
-    maxDate: '11/04/2026',
     checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965161924944&store=19651'
   },
   {
     id: 'backking',
     name: 'PRÉ VENDA BACK KING',
     price: 437.00,
-    maxDate: '11/04/2026',
     checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965177961518&store=19651'
   }
 ];
@@ -77,7 +73,6 @@ export default function TicketSelector() {
               <p className="text-lg font-bold text-gray-900">
                 R$ {ticket.price.toFixed(2)}
               </p>
-              <p className="text-xs text-gray-500 italic mt-1">Vendas até {ticket.maxDate}</p>
             </div>
 
             <div className="flex items-center gap-2">
