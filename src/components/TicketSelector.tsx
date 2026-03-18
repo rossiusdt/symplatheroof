@@ -11,23 +11,23 @@ interface TicketOption {
 
 const ticketOptions: TicketOption[] = [
   {
-    id: 'backstage',
-    name: '1º LOTE BACKSTAGE',
-    price: 240.00,
-    maxDate: '11/04/2026',
-    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965161924944&store=19651'
-  },
-  {
-    id: 'frontstage',
-    name: '1º LOTE FRONTSTAGE',
-    price: 140.00,
+    id: 'pista',
+    name: 'PRÉ VENDA PISTA',
+    price: 127.00,
     maxDate: '11/04/2026',
     checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965128177349&store=19651'
   },
   {
-    id: 'lounge',
-    name: '1º LOTE LOUNGE',
-    price: 650.00,
+    id: 'backstage',
+    name: 'PRÉ VENDA BACKSTAGE',
+    price: 237.00,
+    maxDate: '11/04/2026',
+    checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965161924944&store=19651'
+  },
+  {
+    id: 'backking',
+    name: 'PRÉ VENDA BACK KING',
+    price: 437.00,
     maxDate: '11/04/2026',
     checkoutUrl: 'https://seguro.compras-segurasoficial.shop/api/public/shopify?product=1965177961518&store=19651'
   }
@@ -35,9 +35,9 @@ const ticketOptions: TicketOption[] = [
 
 export default function TicketSelector() {
   const [quantities, setQuantities] = useState<Record<string, number>>({
+    'pista': 0,
     'backstage': 0,
-    'frontstage': 0,
-    'lounge': 0
+    'backking': 0
   });
 
   const updateQuantity = (id: string, delta: number) => {

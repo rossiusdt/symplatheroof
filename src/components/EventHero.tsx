@@ -14,7 +14,7 @@ export default function EventHero() {
               <div className="flex items-start gap-3">
                 <Calendar className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">06 jun - 2025 - 15:00</p>
+                  <p className="font-semibold">06 jun - 2026 - 15:00</p>
                 </div>
               </div>
 
