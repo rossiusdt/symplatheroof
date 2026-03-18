@@ -7,21 +7,21 @@ export default function EventHero() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              The Roof - 3 voltas ao sol
+              Fabric - Art Bat
             </h1>
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <Calendar className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">16 mai - 2026 - 21:00 &gt; 17 mai - 2026 - 06:00</p>
+                  <p className="font-semibold">08 jun - 2025 - 15:00</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">Evento presencial em <span className="text-blue-400">Espaço Solaris, Nova Lima - MG</span></p>
+                  <p className="font-semibold">Evento presencial em <span className="text-blue-400">FV 4° DISTRITO/ FERROVELHO, Porto Alegre - RS</span></p>
                 </div>
               </div>
             </div>
@@ -31,8 +31,8 @@ export default function EventHero() {
           <div className="relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl border-4 border-orange-500">
               <img
-                src="/Gemini_Generated_Image_8nxtk18nxtk18nxt.png"
-                alt="The Roof - 3 Voltas ao Sol"
+                src="/Gemini_Generated_Image_nb04sinb04sinb04.png"
+                alt="Fabric - Art Bat"
                 className="w-full h-full object-cover"
               />
             </div>

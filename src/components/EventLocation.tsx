@@ -7,11 +7,19 @@ export default function EventLocation() {
 
       <div className="space-y-4">
         <div>
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">Espaço Solaris</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">FV 4° DISTRITO/ FERROVELHO</h3>
           <div className="text-gray-600 space-y-1">
-            <p>Espaço Solaris, Nova Lima</p>
-            <p>Nova Lima, MG</p>
+            <p>FV 4° DISTRITO/ FERROVELHO</p>
+            <p>Porto Alegre, RS</p>
           </div>
+        </div>
+
+        <div className="rounded-lg overflow-hidden shadow-md">
+          <img
+            src="/Gemini_Generated_Image_mzb1o4mzb1o4mzb1.png"
+            alt="Mapa do evento - Fabric"
+            className="w-full h-auto object-cover"
+          />
         </div>
 
         <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold border border-blue-600 hover:border-blue-700 px-4 py-2 rounded-full transition-colors">
